@@ -4,7 +4,7 @@ This AWS Lambda function is a custom authorizer for API Gateway that authenticat
 
 ## Requirements
 
-- Python 3.8
+- Python 3.9
 - AWS Lambda
 - Amazon API Gateway
 - Amazon Cognito User Pool
