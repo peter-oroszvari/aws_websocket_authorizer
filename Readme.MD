@@ -1,7 +1,7 @@
 # Cognito Auth Lambda
 
 This AWS Lambda function is a custom authorizer for API Gateway that authenticates users using Amazon Cognito User Pools. When a request is made to the API Gateway, this Lambda function will be invoked to verify the user's access token and generate an IAM policy based on the provided token.
-
+Note: In React.js with react-use-websocket, passing tokens through headers may not work (or at least it was not achievable in this implementation), so this solution utilizes query strings for token passing as a reliable alternative.
 ## Requirements
 
 - Python 3.9
