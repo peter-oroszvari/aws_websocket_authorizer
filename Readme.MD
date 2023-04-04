@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```bash
 cd $PROJECT_DIR
 mkdir package
-cp -r venv/lib/python3.8/site-packages/* package/
+cp -r venv/lib/python3.9/site-packages/* package/
 cp lambda_function.py package/
 cd package
 zip -r ../lambda_function.zip .
